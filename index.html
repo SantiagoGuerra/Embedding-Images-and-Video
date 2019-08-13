@@ -8,16 +8,27 @@
 
     <!--Calling the css file-->
     <link rel="stylesheet" href="./css/styles.css">
+
+
+    <!--Roboto font - from Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- Nav Bar Section-->
-<nav> 
-    <div class="Menu"></div>
+<nav class="Navigation-bar"> 
+    <div class="Menu-hamburguer"></div>
 
     <div class="Menu-logo"></div>
-    <div class="input-container"><input type="search"/><button></Button></div>
 
-     <div class="icon-container">
+    <div class="Input-container">
+        <form action="" class="form-search">
+            <input type="search" class="input-search" placeholder="Search"/>
+            <a class="Button-search">s</a>
+        </form>
+    
+    </div>
+
+     <div class="Icon-container">
          <div class="icon_1"></div>
          <div class="icon_2"></div>
          <div class="icon_3"></div>
@@ -30,114 +41,102 @@
 <main class="root">
 
 
+    <div class="Main-content">
     <!--Content-->
     <section class="Content-video">
-        <article class="Video-container">
-
-
-                <!--Embebed Video-->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                <!--Tools-->                
-                <div class="Video-tools">
-                    <div class="tool">
-                        <h2>
-                            Mini Pizzas
-                        </h2>
-                        <p class="views">
-                            167,790 views
-                        </p>
-                    </div>
-
-                    <div class="tool">
-                        <div class="likes">
-
+            <article class="Video-container">
+    
+    
+                    <!--Embebed Video-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <!--Tools-->                
+                    <div class="Video-tools">
+                        <div class="tool">
+                            <h2>
+                                Mini Pizzas
+                            </h2>
+                            <p class="views">
+                                167,790 views
+                            </p>
+                        </div>
+    
+                        <div class="tool">
+                            <div class="likes">
+    
+                            </div>
+                        </div>
+    
+                        <div class="tool">
+                            <div class="share">
+    
+                            </div>
+                        </div>
+    
+                        <div class="tool">
+                            <div class="save">
+    
+                            </div>
+                        </div>
+    
+                        <div class="tool">
+                            <div class="ellipsis"></div>
                         </div>
                     </div>
-
-                    <div class="tool">
-                        <div class="share">
-
+    
+                        <!--Video info-->
+                    <div class="Video-info">
+    
+                        <!--Channel info-->
+                        <div class="info-channel">
+                            <div class="channel-img">
+    
+                            </div>
+                            <div class="channel-name">
+                                Un Poco De Todo
+                            </div>
+                            <span class="video-date">
+                                Published 12 Ago. 2019
+                            </span>
+                            <div class="video-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cumque nihil est perferendis velit dolores nam minima delectus recusandae at, suscipit modi expedita vero esse asperiores? Id autem possimus adipisci.
+                            </div>
+                            <a href="#">Show More</a>
+                        </div>
+    
+    
+                        <!--Suscribe button-->
+                        <div>
+                            <a href="·" class="suscribe"></a>
                         </div>
                     </div>
-
-                    <div class="tool">
-                        <div class="save">
-
-                        </div>
-                    </div>
-
-                    <div class="tool">
-                        <div class="ellipsis"></div>
-                    </div>
-                </div>
-
-                    <!--Video info-->
-                <div class="Video-info">
-
-                    <!--Channel info-->
-                    <div class="info-channel">
-                        <div class="channel-img">
-
-                        </div>
-                        <div class="channel-name">
-                            Un Poco De Todo
-                        </div>
-                        <span class="video-date">
-                            Published 12 Ago. 2019
-                        </span>
-                        <div class="video-description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cumque nihil est perferendis velit dolores nam minima delectus recusandae at, suscipit modi expedita vero esse asperiores? Id autem possimus adipisci.
-                        </div>
-                        <a href="#">Show More</a>
-                    </div>
-
-
-                    <!--Suscribe button-->
-                    <div>
-                        <a href="·" class="suscribe"></a>
-                    </div>
-                </div>
-        </article>
-    </section>
-
-
-
-    <!--Comments-->
-    <section class="comments">
-        <div class="comments-number">
-            12 comments
-        </div>
-        <div class="comments-form"> 
-
-            <div class="user-image"></div>
-
-         <div class="comments-input">
-             <textarea>comments</textarea>
-         </div>   
-        </div>
-    </section>
-
-
-
-    <!-- User Comments-->
-    <section class="User-comments-container">
-
-        <!--Comment-->
-        <div class="User-comment">
-            <div class="User-image">
-
+            </article>
+        </section>
+    
+    
+    
+        <!--Comments-->
+        <section class="comments">
+            <div class="comments-number">
+                12 comments
             </div>
-            <div class="User-name">
-                User name
+            <div class="comments-form"> 
+    
+                <div class="user-image"></div>
+    
+             <div class="comments-input">
+                 <textarea>comments</textarea>
+             </div>   
             </div>
+        </section>
+    
+    
+    
+        <!-- User Comments-->
+        <section class="User-comments-container">
+    
+            <!--Comment-->
             <div class="User-comment">
-                When the narrator make his entrance
-            </div>
-        </div>
-
-         <!--Comment-->
-         <div class="User-comment">
                 <div class="User-image">
     
                 </div>
@@ -148,51 +147,67 @@
                     When the narrator make his entrance
                 </div>
             </div>
-
-
+    
              <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
+             <div class="User-comment">
+                    <div class="User-image">
+        
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
+                </div>
     
-                </div>
-                <div class="User-name">
-                    User name
-                </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
-
-
-
-             <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
     
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+        
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
                 </div>
-                <div class="User-name">
-                    User name
-                </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
-
-
-
-             <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
     
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+        
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
                 </div>
-                <div class="User-name">
-                    User name
+    
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+        
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
                 </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
-    </section>
+        </section>
+    
+    </div>
+
 
 
 </main>
