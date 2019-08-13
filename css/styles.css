@@ -31,7 +31,6 @@ body {
 .Menu-hamburguer {
     height:40px;
     width: 40px;
-    background: red;
     content: "";
     padding: 8px;
     margin-right: 16px;
@@ -41,8 +40,12 @@ body {
 .Menu-logo {
     height: 24px;
     width: 80px;
-    background: red;
     content: "";
+
+}
+.Menu-logo img{
+    height: 100%;
+    width: 100%;
 }
 
 .Input-container {
@@ -81,30 +84,29 @@ body {
 
 
 .Icon-container {
-    background: red;
     height: 40px;
     width: 252px;
     content: "";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .root {
     margin-top: 84px;
     display: flex;
     width: 100%;
-    background: red;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container {
-    background: blue;
     max-width: 1180px;
 }
 
 
 .app {
-    background: green;
     display: flex;
 }
 
@@ -127,11 +129,129 @@ body {
 
 /*video section*/
 .Video-container {
-    background: orange;
 }
 
 
 .video-frame {
     width: 100%;
     height: 420px;
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.tool-a {
+    width: 240px;
+    margin-top: 24px;
+}
+
+
+.name-video {
+    font-size: 16px;
+}
+
+.views {
+    color: rgb(78, 78, 78);
+    margin: 12px 0px;
+    font-size: 15px;
+}
+
+.tool-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.tool .likes, .tool .dislikes, .share img{
+    display: flex;
+    justify-content: center;
+}
+
+.likes img, .dislikes img, .share img {
+    margin-right: 8px;
+    color: rgb(78, 78, 78)
+}
+
+
+
+.Video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-channel {
+    width: 65%;
+}
+
+.channel-name, .video-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.video-date, .video-item-channel, .video-item-views {
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+    margin-top: 4px;
+}
+
+.video-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.show-more {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.suscribe {
+    color: #fff;
+    background: #CD0000;
+    padding: 8px 16px;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+.videos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-item {
+    display: flex;
+    height: 120px;
+    margin-top: 16px;
+}
+
+
+.video-item-img {
+    width: 50%;
+}
+
+.video-item-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.video-item-description {
+    padding: 8px;
+}
+
+
+.comments {
+    background: red;
 }

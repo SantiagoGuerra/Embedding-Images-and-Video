@@ -16,24 +16,35 @@
 <body>
 <!-- Nav Bar Section-->
 <nav class="Navigation-bar"> 
-    <div class="Menu-hamburguer"></div>
+    <div class="Menu-hamburguer">
+        <img src = "assets /baseline-menu-24px.svg"/>
+    </div>
 
-    <div class="Menu-logo"></div>
+    <div class="Menu-logo">
+        <img src = "assets /youtube.png"/>
+    </div>
 
     <div class="Input-container">
         <form action="" class="form-search">
             <input type="search" class="input-search" placeholder="Search"/>
-            <a class="Button-search">s</a>
+            <a class="Button-search">
+                <img src = "assets /baseline-search-24px.svg"/>
+            </a>
         </form>
     
     </div>
 
      <div class="Icon-container">
-         <div class="icon_1"></div>
-         <div class="icon_2"></div>
-         <div class="icon_3"></div>
-         <div class="icon_4"></div>
-         <div class="icon_5"></div>
+         <div class="icon_1">
+           <img src ="assets /baseline-video_call-24px.svg" /> 
+         </div>
+         <div class="icon_2">
+             <img src = "assets /icons8-right-2-24.png"/>
+         </div>
+         <div class="icon_3">
+             <img src = "assets /baseline-notifications-24px.svg"/>
+         </div>
+         
      </div>
 </nav>
 
@@ -52,42 +63,50 @@
                     <article class="Video-container">
             
             
-                            <!--Embebed Video-->
-                            <iframe class="video-frame" width="1120" height="630" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            
-                            <!--Tools-->                
-                            <div class="Video-tools">
-                                <div class="tool">
-                                    <h2>
-                                        Mini Pizzas
-                                    </h2>
-                                    <p class="views">
-                                        167,790 views
-                                    </p>
-                                </div>
-            
-                                <div class="tool">
-                                    <div class="likes">
-            
+
+                    <!--Embebed Video-->
+                    <iframe class="video-frame" width="560" height="315" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <!--Tools-->                
+                    <div class="Video-tools">
+
+
+                        <div class="tools">
+                                <div class="tool tool-a">
+                                        <h2
+                                            class="name-video"
+                                        >
+                                            Mini Pizzas
+                                        </h2>
+                                        <p class="views">
+                                            167,790 views
+                                        </p>
                                     </div>
-                                </div>
-            
-                                <div class="tool">
-                                    <div class="share">
-            
+                                    
+                                    <div class="tool-container">
+                                        <div class="tool">
+                                                <div class="likes">
+                                                    <img src = "assets /baseline-thumb_up-24px.svg"/>
+                                                    40k
+                                                </div>
+                                            </div>
+                    
+                                            <div class="tool">
+                                                <div class="dislikes">
+                                                    <img src = "assets /baseline-thumb_down-24px.svg"/>
+                                                    2k
+                                                </div>
+                                            </div>
+                                                                                                    
+                                            <div class="tool">
+                                                <div class="share">
+                                                    <img src = "assets /icons8-right-2-24.png"/>
+                                                </div>
+                                            </div>
                                     </div>
-                                </div>
-            
-                                <div class="tool">
-                                    <div class="save">
-            
-                                    </div>
-                                </div>
-            
-                                <div class="tool">
-                                    <div class="ellipsis"></div>
-                                </div>
-                            </div>
+                                    
+                        </div>
+                        
             
                                 <!--Video info-->
                             <div class="Video-info">
@@ -106,36 +125,17 @@
                                     <div class="video-description">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cumque nihil est perferendis velit dolores nam minima delectus recusandae at, suscipit modi expedita vero esse asperiores? Id autem possimus adipisci.
                                     </div>
-                                    <a href="#">Show More</a>
+                                    <a href="#" class="show-more">Show More</a>
                                 </div>
             
             
                                 <!--Suscribe button-->
                                 <div>
-                                    <a href="·" class="suscribe"></a>
+                                    <a href="·" class="suscribe">SUSCRIBE 2M</a>
                                 </div>
+ 
                             </div>
-                    </article>
-                </section>
-            
-            
-            
-                <!--Comments-->
-                <section class="comments">
-                    <div class="comments-number">
-                        12 comments
-                    </div>
-                    <div class="comments-form"> 
-            
-                        <div class="user-image"></div>
-            
-                     <div class="comments-input">
-                         <textarea>comments</textarea>
-                     </div>   
-                    </div>
-                </section>
-            
-            
+
             
                 <!-- User Comments-->
                 <section class="User-comments-container">
@@ -179,49 +179,107 @@
                                 When the narrator make his entrance
                             </div>
                         </div>
-            
-            
-            
-                         <!--Comment-->
+                    </div>
+                    
+            </article>
+        </section>
+    
+    
+    
+ 
+    
+    
+    
+        <!-- User Comments-->
+        <section class="User-comments-container">
+    
+            <!--Comment-->
+            <div class="User-comment">
+                <div class="User-image">
+                 <img src = "assets /icons8-male-user-24.png"/>
+                </div>
+                <div class="User-name">
+                    User name
+                </div>
+                <div class="User-comment">
+                    When the narrator make his entrance
+                </div>
+            </div>
+    
+             <!--Comment-->
+             <div class="User-comment">
+                    <div class="User-image">
+                    <img src = "assets /baseline-person-24px.svg"/>
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
                     <div class="User-comment">
-                            <div class="User-image">
-                
-                            </div>
-                            <div class="User-name">
-                                User name
-                            </div>
-                            <div class="User-comment">
-                                When the narrator make his entrance
-                            </div>
-                        </div>
-            
-            
-            
-                         <!--Comment-->
+                        When the narrator make his entrance
+                    </div>
+                </div>
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                        <img src = "assets /icons8-male-user-24.png"/>
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
                     <div class="User-comment">
-                            <div class="User-image">
-                
-                            </div>
-                            <div class="User-name">
-                                User name
-                            </div>
-                            <div class="User-comment">
-                                When the narrator make his entrance
-                            </div>
-                        </div>
-                </section>
-            
+                        When the narrator make his entrance
+                    </div>
+                </div>
+    
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                      <img src = "assets /baseline-person-24px.svg"/>
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
+                </div>
+    
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                       <img src ="assets /baseline-person-24px.svg"/>
+                    </div>
+                    <div class="User-name">
+                        User name
+                    </div>
+                    <div class="User-comment">
+                        When the narrator make his entrance
+                    </div>
+                </div>
+        </section>
+   
+
+
+
+
+    
     </div>
-        
-        
-        
-        
-    <!--uncoming videos-->
+
+        <!--uncoming videos-->
     <aside class="videos-side">
                 <div class="videos-container">
         
                     <div class="video-item">
-                        <div class="video-item-img"></div>
+                        <div class="video-item-img">
+                            <img src = "assets /Video1.webp"/>
+                        </div>
+        
                         <div class="video-item-description">
                             <h2 class="video-item-title">
                                 Video Title
@@ -236,7 +294,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video2.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -251,7 +311,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video3.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -266,7 +328,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video4.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -281,7 +345,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video5.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -297,7 +363,9 @@
         
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video6.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -312,7 +380,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video8.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -327,7 +397,9 @@
                     </div>
         
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video9.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -343,7 +415,9 @@
         
                     
                     <div class="video-item">
-                            <div class="video-item-img"></div>
+                            <div class="video-item-img">
+                                <img src = "assets /Video10.webp"/>
+                            </div>
                             <div class="video-item-description">
                                 <h2 class="video-item-title">
                                     Video Title
@@ -355,11 +429,26 @@
                                     282k views
                                 </div>
                             </div>
-                    </div>
-        
-        
-        
-                </div>
+                
+                            
+                            <div class="video-item">
+                                    <div class="video-item-img"></div>
+                                    <div class="video-item-description">
+                                        <h2 class="video-item-title">
+                                            Video Title
+                                        </h2>
+                                        <div class="video-item-channel">
+                                            Channel
+                                        </div>
+                                        <div class="video-item-views">
+                                            282k views
+                                        </div>
+                                    </div>
+                            </div>
+                
+                
+                
+                        </div>
     </aside>
         
     </section>
