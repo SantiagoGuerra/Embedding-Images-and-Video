@@ -4,191 +4,426 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Embedding-Images-and-Video</title>
+    <title>Mini Pizzas | YouTube</title>
+
+    <!--Calling the css file-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+    <!--Roboto font - from Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel='icon' type='image/x-icon' href='favicon.ico' />
 </head>
 <body>
 <!-- Nav Bar Section-->
-<nav> 
-    <div class="Menu"></div>
+<nav class="Navigation-bar"> 
+    <div class="Menu-hamburguer">
+        <img src = "assets /baseline-menu-24px.svg"/>
+    </div>
 
-    <div class="Menu-logo"></div>
-    <div class="input-container"><input type="search"/><button></Button></div>
+    <div class="Menu-logo">
+        <img src = "assets /youtube.png"/>
+    </div>
 
-     <div class="icon-container">
-         <div class="icon_1"></div>
-         <div class="icon_2"></div>
-         <div class="icon_3"></div>
-         <div class="icon_4"></div>
-         <div class="icon_5"></div>
+    <div class="Input-container">
+        <form action="" class="form-search">
+            <input type="search" class="input-search" placeholder="Search"/>
+            <a class="Button-search">
+                <img src = "assets /baseline-search-24px.svg"/>
+            </a>
+        </form>
+    
+    </div>
+
+     <div class="Icon-container">
+         <div class="icon_1">
+           <img src ="assets /baseline-video_call-24px.svg" /> 
+         </div>
+         <div class="icon_2">
+             <img src = "assets /icons8-right-2-24.png"/>
+         </div>
+         <div class="icon_3">
+             <img src = "assets /baseline-notifications-24px.svg"/>
+         </div>
+         
      </div>
 </nav>
 
 
 <main class="root">
 
-
-    <!--Content-->
-    <section class="Content-video">
-        <article class="Video-container">
+<div class="container">
 
 
-                <!--Embebed Video-->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                <!--Tools-->                
-                <div class="Video-tools">
-                    <div class="tool">
-                        <h2>
-                            Mini Pizzas
-                        </h2>
-                        <p class="views">
-                            167,790 views
-                        </p>
-                    </div>
+    <section class="app">
+    <!--main content-->
+    <div class="Main-content">
+        
+            <!--Content-->
+            <section class="Content-video">
+                    <article class="Video-container">
+            
+            
 
-                    <div class="tool">
-                        <div class="likes">
+                    <!--Embebed Video-->
+                    <iframe class="video-frame" width="560" height="315" src="https://www.youtube.com/embed/M64lJ-lciHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <!--Tools-->                
+                    <div class="Video-tools">
 
+
+                        <div class="tools">
+                                <div class="tool tool-a">
+                                        <h2
+                                            class="name-video"
+                                        >
+                                            Mini Pizzas
+                                        </h2>
+                                        <p class="views">
+                                            167,790 views
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="tool-container">
+                                        <div class="tool">
+                                                <div class="likes">
+                                                    <img src = "assets /baseline-thumb_up-24px.svg"/>
+                                                    40k
+                                                </div>
+                                            </div>
+                    
+                                            <div class="tool">
+                                                <div class="dislikes">
+                                                    <img src = "assets /baseline-thumb_down-24px.svg"/>
+                                                    2k
+                                                </div>
+                                            </div>
+                                                                                                    
+                                            <div class="tool">
+                                                <div class="share">
+                                                    <img src = "assets /icons8-right-2-24.png"/>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    
                         </div>
-                    </div>
-
-                    <div class="tool">
-                        <div class="share">
-
-                        </div>
-                    </div>
-
-                    <div class="tool">
-                        <div class="save">
-
-                        </div>
-                    </div>
-
-                    <div class="tool">
-                        <div class="ellipsis"></div>
-                    </div>
-                </div>
-
-                    <!--Video info-->
-                <div class="Video-info">
-
-                    <!--Channel info-->
-                    <div class="info-channel">
-                        <div class="channel-img">
-
-                        </div>
-                        <div class="channel-name">
-                            Un Poco De Todo
-                        </div>
-                        <span class="video-date">
-                            Published 12 Ago. 2019
-                        </span>
-                        <div class="video-description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cumque nihil est perferendis velit dolores nam minima delectus recusandae at, suscipit modi expedita vero esse asperiores? Id autem possimus adipisci.
-                        </div>
-                        <a href="#">Show More</a>
-                    </div>
+                        
+            
+                                <!--Video info-->
+                            <div class="Video-info">
+            
+                                <!--Channel info-->
+                                <div class="info-channel">
 
 
-                    <!--Suscribe button-->
-                    <div>
-                        <a href="·" class="suscribe"></a>
-                    </div>
-                </div>
-        </article>
-    </section>
+                                    <div class="main-info">
+                                            <div class="channel-img User-image">
+                                                    <img src="https://yt3.ggpht.com/a/AGF-l78jSIIDBc4KZ_UTpTvT8eCWziMIrIVUtsz_BQ=s48-c-k-c0xffffffff-no-rj-mo" alt="" >
+                                                </div>
 
 
+                                                <div class="details-info">
+                                                        <div class="channel-name">
+                                                                Un Poco De Todo
+                                                            </div>
+                                                            <span class="video-date">
+                                                                Published 12 Ago. 2019
+                                                            </span>
+                                                </div>
+                                               
 
-    <!--Comments-->
-    <section class="comments">
-        <div class="comments-number">
-            12 comments
-        </div>
-        <div class="comments-form"> 
+                                    </div>
+                                    
+                                    <div class="video-description">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cumque nihil est perferendis velit dolores nam minima delectus recusandae at, suscipit modi expedita vero esse asperiores? Id autem possimus adipisci.
+                                    </div>
+                                    <a href="#" class="show-more">Show More</a>
+                                </div>
+            
+            
+                                <!--Suscribe button-->
+                                <div>
+                                    <a href="·" class="suscribe">SUSCRIBE 2M</a>
+                                </div>
+ 
+                            </div>
 
-            <div class="user-image"></div>
-
-         <div class="comments-input">
-             <textarea>comments</textarea>
-         </div>   
-        </div>
-    </section>
-
-
-
-    <!-- User Comments-->
-    <section class="User-comments-container">
-
-        <!--Comment-->
-        <div class="User-comment">
-            <div class="User-image">
-
-            </div>
-            <div class="User-name">
-                User name
-            </div>
+            
+         
+            </article>
+        </section>
+    
+    
+    
+ 
+    
+    
+    
+        <!-- User Comments-->
+        <section class="User-comments-container">
+    
+            <!--Comment-->
             <div class="User-comment">
-                When the narrator make his entrance
-            </div>
-        </div>
-
-         <!--Comment-->
-         <div class="User-comment">
                 <div class="User-image">
-    
+                 <img src = "https://yt3.ggpht.com/-EscK9jWmJ1Y/AAAAAAAAAAI/AAAAAAAAAAA/VSnre5VV2WQ/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
                 </div>
-                <div class="User-name">
-                    User name
+
+                <div class="User-description">
+                    <div class="User-name">
+                        Paquito
+                    </div>
+                    <div class="User-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a laborum aliquam sap
+                    </div>
                 </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
+               
             </div>
-
-
+    
              <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
+             <div class="User-comment">
+                    <div class="User-image">
+                    <img src = "https://yt3.ggpht.com/-irLeS_4uRgM/AAAAAAAAAAI/AAAAAAAAAAA/VqDmkfBOpRk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+                    </div>
+
+                    <div class="User-description">
+                        <div class="User-name">
+                            Marquinhos
+                        </div>
+                        <div class="User-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a laborum aliquam sap
+                        </div>
+                    </div>
+                   
+                </div>
     
-                </div>
-                <div class="User-name">
-                    User name
-                </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
-
-
-
-             <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
     
-                </div>
-                <div class="User-name">
-                    User name
-                </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                        <img src = "https://yt3.ggpht.com/-sEybo_uxhB8/AAAAAAAAAAI/AAAAAAAAAAA/KYjnR2ZUEJM/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+                    </div>
 
+                    <div class="User-description">
+                        <div class="User-name">
+                            Ronaldo
+                        </div>
+                        <div class="User-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a laborum aliquam sap
+                        </div>
+                    </div>
 
-
-             <!--Comment-->
-        <div class="User-comment">
-                <div class="User-image">
+                   
+                </div>
     
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                      <img src = "https://yt3.ggpht.com/-PuaI7aZh8Kw/AAAAAAAAAAI/AAAAAAAAAAA/ltenP5yixt8/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+                    </div>
+
+                    <div class="User-description">
+                        <div class="User-name">
+                            Maria
+                        </div>
+                        <div class="User-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a laborum aliquam sap
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="User-name">
-                    User name
+    
+    
+    
+                 <!--Comment-->
+            <div class="User-comment">
+                    <div class="User-image">
+                       <img src ="https://yt3.ggpht.com/-ktiUJqmd8JY/AAAAAAAAAAI/AAAAAAAAAAA/q04ayIL4qvg/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+                    </div>
+
+                    <div class="User-description">
+                        <div class="User-name">
+                            Moe Do
+                        </div>
+                        <div class="User-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae a laborum aliquam sap
+                        </div>
+                    </div>
+
+                
                 </div>
-                <div class="User-comment">
-                    When the narrator make his entrance
-                </div>
-            </div>
+        </section>
+   
+
+
+
+
+    
+    </div>
+
+        <!--uncoming videos-->
+    <aside class="videos-side">
+                <div class="videos-container">
+        
+                    <div class="video-item">
+                        <div class="video-item-img">
+                            <img src = "assets /Video1.webp"/>
+                        </div>
+        
+                        <div class="video-item-description">
+                            <h2 class="video-item-title">
+                           Jurassic World: minecraft
+                            </h2>
+                            <div class="video-item-channel">
+                                Channel
+                            </div>
+                            <div class="video-item-views">
+                                282k views
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video2.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   Yelling with 100 trillion
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video3.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   I used #1 hero power to battle the super villain
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video4.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   Crafting ultimate Iron man in minecraft
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video5.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                roblox Eating simulator
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video6.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   I got Inifity levels to escape the robux dungeo
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video8.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   My little pony roblox
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video9.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                   I become the biggest danger and got 100,000,000 fans
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                    </div>
+        
+                    
+                    <div class="video-item">
+                            <div class="video-item-img">
+                                <img src = "assets /Video10.webp"/>
+                            </div>
+                            <div class="video-item-description">
+                                <h2 class="video-item-title">
+                                    I detonated 100,000 nukes and made every player leave
+                                </h2>
+                                <div class="video-item-channel">
+                                    Channel
+                                </div>
+                                <div class="video-item-views">
+                                    282k views
+                                </div>
+                            </div>
+                        </div>
+    </aside>
+        
     </section>
 
 <!--The upcoming videos-->
@@ -346,6 +581,9 @@
                             
     </div>
 </aside>
+
+</div>
+
 
 </main>
 </body>
