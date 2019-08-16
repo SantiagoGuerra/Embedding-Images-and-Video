@@ -5,5 +5,6 @@ This is the first project on the Microverse Main Curriculum list
 * Santiago Guerra
 * Vashira Musa
 
-## Web site: https://santiagoguerra.github.io/Embedding-Images-and-Video/
+## Web site: 
+* https://santiagoguerra.github.io/Embedding-Images-and-Video/
 
